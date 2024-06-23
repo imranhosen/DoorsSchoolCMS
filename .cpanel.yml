@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/doorssch/demo_for_git/
+    - /bin/cp index.html $DEPLOYPATH
